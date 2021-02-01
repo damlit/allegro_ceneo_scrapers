@@ -1,0 +1,17 @@
+{
+  "name": "scrapper",
+  "version": "1.0.0",
+  "description": "web allegro scrapper",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node allegro_queue_service.js"
+  },
+  "author": "damian litwin",
+  "license": "ISC",
+  "dependencies": {
+    "apify": "^0.21.9",
+    "mongodb": "^3.6.3",
+    "puppeteer": "^5.5.0"
+  }
+}
