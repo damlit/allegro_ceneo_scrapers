@@ -7,7 +7,6 @@ COPY ./package-lock.json /app/package-lock.json
 
 RUN npm install
 
-COPY ./index.js /app/index.js
 COPY ./mongo.js /app/mongo.js
 COPY ./allegro_scraper.js /app/allegro_scraper.js
 COPY ./ceneo-scraper.js /app/ceneo-scraper.js
